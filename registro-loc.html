@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="regm.css">
+<link rel="stylesheet" type="text/css" href="loader.css">
+</head>
+<body onload="loader()" id="body">
+
+    <script type="text/javascript">
+        
+        function loader() {
+    
+            setTimeout(function(){
+                var d = document.getElementById("body");
+                d.className += " loaded";
+            }, 500);
+        
+        };
+
+    </script>
+
+    <div id="loader-wrapper">
+
+            <div id="loader">
+                
+            </div>
+            <img width="200px" src="./img/logo.png">
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+    </div>
+
+	<div id="main-top">
+            <div id="logo"><img class="avatar" src="./img/logo.png" alt="avatar" title="Imagen de avatar"/></div>
+            
+            <div id="redes">
+                <form action="php/search.php" method="POST">
+                    <input type="text" name="search">
+                    <button id="buscar" type="submit" value="Submit"/>Buscar</button>
+                </form>
+                <br>
+                <div id="conjunto">
+                    <div id="login">
+                        <button id="login-butt">Login</button>
+                        <div id="log-form">
+                            <form action="php/login.php" method="POST">
+                                 <input type="text" name="user" placeholder="Usuario..." required>
+                                 <br>
+                                 <input type="password" name="pass" placeholder="Contraseña..." required>
+                                 <br>
+                                 <button type="submit">Entrar</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="social">
+                        <button id="face" type="submit" onclick="location.href='http://www.facebook.com';" value="Facebook"/></button>
+                        <button id="twit" type="submit" onclick="location.href='http://www.twitter.com';" value="Twitter"/></button>
+                        <button id="insta" type="submit" onclick="location.href='http://www.instagram.com';" value="Instagram"/></button>
+                    </div>
+                </div>
+            </div>
+            <div id="menu">
+                <a href="./home.html">Inicio</a>
+                <span>|</span>
+                <a href="./grupos.html">Grupos</a>
+                <span>|</span>
+                <a href="./musicos.html">Musicos</a>
+                <span>|</span>
+                <a href="./registro.html">Registro</a>
+            </div>
+    </div>
+
+        <br>
+        <br>
+
+	<div id="allc">
+		<h1>REGISTRO <br>LOCAL</h1>
+
+		<div id="inputs">
+			
+            <form action="php/local.php" method="POST">
+            <div id="iz">
+                <span>Nombre del local</span><br><input type="text" name="nombre"><br>
+                <span>Nombre y apellidos</span><br><input type="text" name="nombreg"><br>
+                <span>Descripción corta del local</span><br><input type="text" name="nombrear"><br>
+                <span>Ubicacion</span><br><input type="text" name="email"><br>
+            </div>
+            <div id="der">
+                <span>Aforo maximo del local</span><br><input type="text" name="web"><br>
+                <span>Teléfono</span><br><input type="text" name="telef"><br>
+                <span>Contraseña</span><br><input type="text" name="pass"><br>
+                <span>Repetir Contraseña</span><br><input type="text" name="pass2"><br>
+            </div>
+
+            <span>Seleccionar Imagen</span><br><input style="height: 30px; align-content: center;" type="file" name="pass"><br>
+
+            <button>Completar Registro</button>
+
+            </form>
+		</div>
+	</div>
+	<br>
+	<br>
+	<div id="footer">
+            <span>©Copyright PAGUMA 2016.</span>
+        </div>
+</body>
+</html>

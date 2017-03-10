@@ -1,0 +1,582 @@
+body {
+    width: 100%;
+    background-image: url(./img/bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  0.5;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  0.5;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+
+#main-top{
+    background-color: #161616;
+    height: 90px;
+}
+#login-butt:hover + #log-form {
+    display: block;
+}
+
+#log-form {
+    display: none;
+    margin-top: -8px;
+    width: 200px;
+    height: 100px;
+    background-color:#303030; 
+    border-radius: 5px;
+}
+
+#log-form form{
+    text-align: center;
+    float: left;
+    position: relative;
+    margin-left: -20px;
+    margin-top: 15px;
+}
+
+#log-form input{
+    width: 70%;
+    /* margin-right: -2px; */
+    margin-left: 28px;
+}
+
+#log-form input{
+    width: 70%;
+    /* margin-right: -2px; */
+    margin-left: 28px;
+}
+
+#log-form button{
+    margin-right: -25px;
+    vertical-align: top;
+    display: inline-block;
+    width: 135px;
+    height: 26px;
+    background-color: rgba(0, 132, 84, 0.3);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 8px;
+}
+
+#log-form:hover {
+    display: block;
+}
+
+#menu {
+    padding-left: 41%;
+    float: right;
+    margin-top: 36px;
+    margin-right: 50px;
+    position: absolute;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    padding: 14px 25px;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+    background-color: #303030;
+}
+
+#menu span {
+    color: white;
+    margin-left: 15px;
+}
+input {
+    display: inline-block;
+    margin:auto; 
+    vertical-align: top;
+    width: 60%;
+    height: 20px;
+    background-color: transparent;
+    font-size: 14px;
+    text-align: left;
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+
+#titulo{
+
+
+    display: inline-block;
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    border:2px;
+    border-style:dashed;
+    border-color: greenyellow;
+}
+#redes{
+    width: 20%;
+    display: inline-block;
+    text-align: right;
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+#face {
+    background-image: url(./img/Facebook.png);
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+#twit {
+    background-image: url(./img/Twitter.png);
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: 0;
+}
+
+#conjunto {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    vertical-align: top;
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
+#login {
+    display: inline-block;
+    margin-top: 5px;
+    width: 49%;
+    height: 50px;
+    vertical-align: top;
+}
+
+#login-butt {
+    vertical-align: top;
+    display: inline-block;
+    width: 135px;
+    height: 26px;
+    background-color: rgba(0, 132, 84, 0.3);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 8px;
+}
+
+#insta {
+    background-image: url(./img/Instagram.png);
+    background-size: contain;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 15px;
+    border: 0;
+}
+
+#buscar {
+    vertical-align: top;
+    display: inline-block;
+    width: 80px;
+    height: 26px;
+    background-color: rgba(0, 132, 84, 0.1);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 8px;
+}
+
+#social {
+    margin: 0;
+    margin-right: 5px;
+    display: inline-block;
+    width: 48%;
+    height: 50px;
+}
+
+#br {
+    display: block;
+    margin: 20px 0;
+}
+
+.avatar {
+    top: -10px;
+    margin-left: 20px;
+    width: 28%;
+    height: 28%;
+    display: inline-block;
+    float: left;
+}
+
+#logo{
+    width: 40%;
+    float: left;
+    text-align: center; 
+    display: inline-block;
+}
+
+h1 {
+
+    font-size: 25px;
+
+}
+
+button {
+    cursor: pointer !important;
+}
+
+#footer{
+    bottom: 0;
+    position: absolute;
+    vertical-align: bottom;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    border:2px;
+    background-color: #161616;
+}
+
+#footer span{
+    padding-left: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+#inputs span{
+    font-size: 16px !important;
+}
+
+#inputs span{
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px black;
+    padding-right: 10px;
+}
+
+#inputs {
+    text-align: center;
+    align-content: center;
+}
+
+#inputs input{
+    margin:auto; 
+    vertical-align: top;
+    display: block;
+    width: 80%;
+    height: 20px;
+    background-color: transparent;
+    font-size: 14px;
+    text-align: left;
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+
+#inputs button {
+    vertical-align: top;
+    width: 180px;
+    height: 40px;
+    background-color: rgba(0, 132, 84, 0.1);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 50px;
+}
+
+#inputs button:hover {
+    vertical-align: top;
+    width: 180px;
+    height: 40px;
+    background-color: rgba(0, 132, 84, 0.1);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 3px grey;
+    border-radius: 50px;
+}
+
+#iz {
+    width: 49%;
+    display: inline-block;
+}
+
+#der {
+    width: 49%;
+    display: inline-block;
+}
+
+#titulo{
+
+
+    display: inline-block;
+    width: 74%;
+    height: 50%;
+    text-align: center;
+    border:2px;
+    border-style:dashed;
+    border-color: greenyellow;
+}
+
+#local-butt {
+
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    margin-right: 60px;
+}   
+
+h1{
+    text-shadow: 1px 1px 3px black;
+    color: white;
+}
+
+#musico-butt {
+
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    margin-left: 60px;
+}
+
+#fan-butt {
+
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+}
+
+#allc {
+
+    vertical-align: top;
+    display: block;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+
+button {
+
+    margin-bottom: 8px;
+
+}
+
+#local {
+
+    vertical-align: top;
+    float: right;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 50px;
+}
+
+#musico {
+
+    vertical-align: top;
+    float: left;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 50px;
+}
+
+#fan {
+
+    vertical-align: top;
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 50px;
+}
+
+input {
+    display: inline-block;
+    margin:auto; 
+    vertical-align: top;
+    width: 60%;
+    height: 20px;
+    background-color: transparent;
+    font-size: 14px;
+    text-align: left;
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+
+#local:hover {
+
+    float: right;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 3px grey;
+    border-radius: 50px;
+}
+
+#musico:hover {
+
+    float: left;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    border: 3px;
+    border-style: solid;
+    border-color: #fcfcfc;
+    box-shadow: 1px 1px 3px grey;
+    border-radius: 50px;
+}
+
+#fan:hover {
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px 3px grey;
+    border-radius: 50px;
+}
+
+#allc img {
+    box-shadow: 1px 1px 3px black;
+}
+
+#allc #local-img {
+
+    width: 200px;
+    height: 200px;
+    background-image: url(./img/local.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 3px black;
+    margin-top: 30px;
+}
+
+#allc #music-img {
+
+    width: 200px;
+    height: 200px;
+    background-image: url(./img/musico.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 3px black;
+    margin-top: 30px;
+
+}
+
+#allc #fan-img {
+
+    width: 200px;
+    height: 200px;
+    background-image: url(./img/fan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 3px black;
+
+}
+
+#inputs {
+	margin-right: 100px; 
+	margin-left: 100px;
+	width: 70%;
+	height: 400px;
+
+}
